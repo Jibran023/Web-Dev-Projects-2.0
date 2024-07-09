@@ -165,6 +165,11 @@
         height: 47%;/* size of the hover */
         
     }
+    .button-container {
+        display: flex;
+        align-items: center;
+        order: 1; /* Place it before the menu-icon */
+    }
 
     .menu-icon {
         display: block;

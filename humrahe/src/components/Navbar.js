@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
+// import img1 from './images/img-1.png';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -29,7 +30,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         HUMRAHE
                         <svg className="logo-icon" xmlns="http://www.w3.org/2000/svg" height='30px' width='30px' viewBox="0 0 384 512">
                             <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
@@ -48,7 +49,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to ='/Products' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to ='/products' className='nav-links' onClick={closeMobileMenu}>
                                 Products
                             </Link>
                         </li>
