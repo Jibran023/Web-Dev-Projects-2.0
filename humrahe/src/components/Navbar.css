@@ -79,6 +79,7 @@
 
 .nav-links:hover {
     color: #fff; /* Change this to your desired hover color */
+    border-bottom: 4px solid #fff;
 }
 
 .menu-icon {
@@ -133,17 +134,16 @@
         height: 500%;
         transition: all 0.5s ease;
         z-index: 99;
-        margin-left: 0px;
+        margin-left: 20px;
         position: absolute;
+        margin-top: 16px;
     }
 
     .nav-item {
         width: 100%;
-        margin-left: -20px;
+        margin-left: 60px;
         height: 100%;
         padding: 0 10px;
-        /* row-gap: -100px; */
-        /* padding: -4rem; */
     }
 
     .nav-links {
@@ -159,10 +159,11 @@
     .nav-links:hover {
         background-color: #F89880;
         border-radius: 0;
-        /* margin-left: -30px;
-        margin-inline-end: -100px; */
-        width: 97.3%;
+        margin-left: -40px;
+        /* margin-inline-end: -100px;  */
+        width: 102.5%;
         height: 47%;/* size of the hover */
+        border-bottom: 4px solid #fff;
         
     }
     .button-container {
