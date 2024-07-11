@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
-// import img1 from './images/img-1.png';
 
 function Navbar() {
     const [click, setClick] = useState(false);

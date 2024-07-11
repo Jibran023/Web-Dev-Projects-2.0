@@ -6,8 +6,9 @@ video {
     z-index: -1; 
 }
 
+/* uncomment to get the image in background */
 .hero-container{
-    /* background: url('/public/images/img-home.jpg') center center/cover no-repeat; */
+    background: url('/public/images/img-home.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
