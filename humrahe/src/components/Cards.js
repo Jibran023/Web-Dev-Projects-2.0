@@ -18,7 +18,7 @@ function Cards() {
                     <CardItem 
                     src='images/img-8.jpg'
                     text='Break Free from the hassles of daily struggle and book a trip with us to Dubai!'
-                    label='Adventure'
+                    label='Survival'
                     path='/services'
                     />
                 </ul>
@@ -26,19 +26,19 @@ function Cards() {
                     <CardItem 
                     src='images/img-5.jpg'
                     text='Book a trip to China!'
-                    label='Adventure'
+                    label='Discover'
                     path='/services'
                     />
                     <CardItem 
                     src='images/img-6.jpg'
                     text='What about the weather in Hong Kong? Come Explore with us!'
-                    label='Adventure'
+                    label='Discover'
                     path='/services'
                     />
                     <CardItem 
                     src='images/img-7.jpg'
                     text='Explore places never visited before with us!'
-                    label='Adventure'
+                    label='Exciting'
                     path='/services'
                     />
                 </ul>

@@ -1,0 +1,82 @@
+.signup_container {
+  background-color: #242424;
+  display: flex;
+  padding: 4rem 0 2rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup_info {
+  color: #fff;
+  font-size: 50px; /* Adjusted for better readability */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.input_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; /* Adjust the width as needed */
+}
+
+.labels {
+  color: #fff;
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+.input {
+  margin-right: 100px;
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-bottom: 16px;
+  outline: none;
+  border: 1px solid #FA5F55;
+  font-size: 18px;
+  width: 100%; /* Ensure the input fields take the full width */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.gender.selection, .date_of_birth {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.date_of_birth {
+  margin-bottom: 32px; /* Add more margin to create space between date of birth and submit button */
+}
+
+.options_label {
+  color: #fff;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.combobox_entries {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #FA5F55;
+  font-size: 18px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.submit {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.date_of_birth_info {
+  color: #fff;
+  margin-bottom: 8px;
+  display: block;
+}

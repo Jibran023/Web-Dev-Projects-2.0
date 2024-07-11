@@ -92,8 +92,11 @@
     color: #b1b1b1;
 }
 
-.footer-logo > Link {
+.footer_logo {
     align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    margin-left: 310px;
 }
 
 /* Social Links */
@@ -126,7 +129,7 @@
 
 .social-logo {
     color: #fff;
-    justify-self: start;
+    justify-content: center;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;

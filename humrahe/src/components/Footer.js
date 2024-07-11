@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='footer-container'>
-        <section classname='footer-subscription'>
+        <section className='footer-subscription'>
             <p className='footer-subscription-heading'>
                 Join the adventure newsletter to recieve our best vacation deals
             </p>
@@ -62,16 +62,17 @@ function Footer() {
             </div>
         </div>
         <section className='social-media'>
-            <div className='social-media wrap'>
-                <div className='footer-logo'>
+            <div className='social-media-wrap'>
+                <div className='footer_logo'>
                     <Link to='/' className='social-logo'>
                         HUMRAHE
                         <svg className="logo-icon" xmlns="http://www.w3.org/2000/svg" height='30px' width='30px' viewBox="0 0 384 512">
                             <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
                         </svg>
                     </Link>
+                    <small className='website-rights'>HUMRAHE @ 2024</small>
                 </div>
-                <small className='website-rights'>HUMRAHE @ 2024</small>
+                
                 <div className='social-icons'>
                     <Link to='/' target='_blank' aria-label='Facebook' className='social-icon-link facebook'>
                         {/* facebook image goes here */}

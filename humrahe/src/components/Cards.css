@@ -23,6 +23,7 @@
   
   .cards__items {
     margin-bottom: 24px;
+    color: #FFB6C1;
   }
   
   .cards__item {
@@ -30,6 +31,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    color: #FFB6C1;
   }
   
   .cards__item__link {
@@ -42,6 +44,7 @@
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
+  
   }
   
   .cards__item__pic-wrap {
@@ -56,6 +59,7 @@
     animation-duration: 2s;
   }
   
+  /* For 'Adventure' written with cards */
   .cards__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;

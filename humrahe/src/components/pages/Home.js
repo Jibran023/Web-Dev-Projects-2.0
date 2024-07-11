@@ -4,6 +4,8 @@ import Footer from '../Footer';
 import HeroSection from '../HeroSection';
 import React from 'react'
 
+// The components of the page are added
+
 function Home() {
     return(
         <>

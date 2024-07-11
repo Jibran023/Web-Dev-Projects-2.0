@@ -7,6 +7,9 @@ import Services from './components/pages/Services';
 import SignUp from './components/pages/SignUp';
 
 
+
+// We insert the links to the pages here 
+
 function App() {
   return (
     <Router>
